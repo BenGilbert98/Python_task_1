@@ -1,7 +1,7 @@
 first_name = input("What is your first name?    ")
 middle_name = input("What is your middle name?    ")
 last_name = input("What is your last name?    ")
-age = input("How old are you?    ")
+age = int(input("How old are you?    ")) # converts age to an integer from a string
 address = input("What is the first line of your address?    ")
 postcode = input("What is your postcode?    ")
 ni_number = input("What is your national insurance number?    ")
