@@ -12,7 +12,7 @@ education = input("What is your most recent education?    ")
 full_name = first_name.capitalize() + ' ' + middle_name.capitalize() + ' ' + last_name.capitalize()
 # making a variable of full name to make the print statement more readable
 
-print("Hello", full_name, "!", "You are {} years old.".format(age), "You live at", address.capitalize(), ",", postcode.upper() + ".", "NI number:", ni_number.upper())
+print("Hello", full_name, "!", "You are {} years old.".format(age), "You live at", address.title() + ",", postcode.upper() + ".", "NI number:", ni_number.upper())
 # print statement to show user information
 print("Recent Education:", education.capitalize())
 # prints recent education
